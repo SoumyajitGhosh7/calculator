@@ -1,4 +1,7 @@
 str=localStorage.getItem('ans');
+if(str==null){
+    str='';
+}
 document.querySelector('#display').value=str;
 
 function dis(c){
